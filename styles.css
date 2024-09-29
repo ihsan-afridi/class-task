@@ -37,4 +37,32 @@ body {
     cursor: pointer;
 }
 
+.result{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
 
+.result-box{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.result-box span {
+    font-size: 2rem;
+}
+
+.result-box p {
+    font-size: 1.2rem;
+}
+
+input{
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 8px;
+    font-size: 15px;
+}

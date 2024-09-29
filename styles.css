@@ -1,3 +1,9 @@
+h1{
+    padding: 50px;
+    margin: 10px;
+    color: aliceblue;
+}
+
 * {
     margin: 0;
     padding: 0;

@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello,Wellcoem to the task</h1>
+    <div class="conatainer">
+        <div class="calculator">
+            <input type="date"  id="birthdate" placeholder="DD-MM-YYYY">
+            <button onclick="calculateAge()">Calculate</button>
+        </div>
+        <div class="result">
+            <div class="result-box">
+                <span id="years">0</span>
+                <p>Years</p>
+            </div>
+            <div class="result-box">
+                <span id="months">0</span>
+                <p>Months</p>
+            </div>
+            <div class="result-box">
+                <span id="days">0</span>
+                <p>Days</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
